@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App weather</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <form id="input">
+          <input type="text" id="city" placeholder="Enter Country...City">
+          <input type="submit" value="Enter to see weather">
+        </form>
+        <div id="weatherContainer">
+          <marquee id="cityName">Weather</marquee>
+          <span id="temp">33°C</span>
+          <span id="main">Cloudy</span>
+          <marquee id="discription">few clouds</marquee>
+          <img id="image" src="https://openweathermap.org/img/wn/02n@2x.png">
+        </div>
+      </div>
+      <footer>Dev: Efrain Oviedo T.</footer>
+      <script src="clima.js" charset="utf-8"></script>
+
+</body>
+</html>
